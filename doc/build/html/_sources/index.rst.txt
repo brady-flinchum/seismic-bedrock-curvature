@@ -1,0 +1,11 @@
+.. toctree::
+   :maxdepth: 3
+   
+   MainText.rst
+
+
+.. pyvista-plot::
+
+    import pyvista as pv
+    mesh = pv.Wavelet()
+    mesh.plot()
